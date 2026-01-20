@@ -11,6 +11,13 @@ import PropsObject from "./Components/PropsObject"
 import UseState from "./Components/UseState"
 import ReactJavascriptXml from './Components/ReactJavascriptXml'
 import ReactEvents from './Components/ReactEvents'
+import IfElse from './Components/IfElse'
+import Ternary from './Components/Ternary'
+import LogicalAnd from './Components/LogicalAnd'
+import ElemetVariable from './Components/ElemetVariable'
+
+
+
 
 function App() {
   const user={name:"surendra",age:20,lover:"divya"};
@@ -28,6 +35,10 @@ function App() {
                   <UseState />
                   <ReactJavascriptXml />
                   <ReactEvents />
+                  <IfElse />
+                  <Ternary />
+                  <LogicalAnd />
+                  <ElemetVariable />
 
     </> 
                   
