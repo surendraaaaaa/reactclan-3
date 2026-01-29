@@ -15,7 +15,11 @@ import IfElse from './Components/IfElse'
 import Ternary from './Components/Ternary'
 import LogicalAnd from './Components/LogicalAnd'
 import ElemetVariable from './Components/ElemetVariable'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Contact from "./Components/Contact"
+import Nav from "./Components/Nav"
 
 
 
@@ -23,6 +27,7 @@ function App() {
   const user={name:"surendra",age:20,lover:"divya"};
   return (
   <>
+
       <h1 className="bg-red-600">surendra</h1>
       
                   <Head />
@@ -39,6 +44,16 @@ function App() {
                   <Ternary />
                   <LogicalAnd />
                   <ElemetVariable />
+
+                     
+                  <Nav />
+                  <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<Contact />} />
+                  </Routes>
+                  
+                 
 
     </> 
                   
