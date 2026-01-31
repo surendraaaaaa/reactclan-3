@@ -20,8 +20,10 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact"
 import Nav from "./Components/Nav"
-
-
+import UseEffect from './Components/useEffect'
+import UseEffect1 from './Components/UseEffect1'
+import Axios from './Components/Axios'
+import Axios1 from './Components/Axios1'
 
 function App() {
   const user={name:"surendra",age:20,lover:"divya"};
@@ -44,7 +46,10 @@ function App() {
                   <Ternary />
                   <LogicalAnd />
                   <ElemetVariable />
-
+                  <UseEffect />
+                  <UseEffect1 />
+                  <Axios />
+                  <Axios1 />
                      
                   <Nav />
                   <Routes>
